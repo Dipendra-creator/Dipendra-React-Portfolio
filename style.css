@@ -1,0 +1,338 @@
+/* Some Basic CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #282C35;
+    padding: 0 16px;
+    /*overflow: hidden;*/
+}
+
+body::-webkit-scrollbar {display:none;}
+a {
+    text-decoration: none;
+}
+
+/* Nav Bar */
+.home-emoji {
+    font-size: 36px;
+    float: left;
+}
+.nav {
+    padding-top: 2px;
+    text-align: center;
+    height: 55px;
+}
+
+.nav_hr {
+    width: available;
+    border: 2px solid #23262D;
+}
+
+#quoto {
+    padding-top: 35px;
+    padding-bottom: 7px;
+}
+
+.quot {
+    color: #E83E8C;
+}
+
+.high {
+    color: #32FAB9;
+}
+
+.Introduction {
+    font-size: large;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: xxx-large;
+    padding: 6px 0 14px 0;
+}
+
+h4 {
+    font-size: x-large;
+    padding: 6px 0 14px 0;
+}
+
+.links {
+    height: 50px;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    padding-top: 10px;
+    height: 50px;
+    width: 60px;
+    color: #32FAB9;
+}
+
+.sec_hr {
+    margin-top: 50px;
+    width: available;
+    border: 1px solid #27383C;
+}
+
+.Card {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid #23262D;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #1a1a1a;
+    height: auto;
+}
+
+.Card h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.Avatar {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.Card p {
+    text-align: left;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.skills {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 10px;
+    overflow-y: auto;
+    display:inline-block;
+}
+
+.btn {
+    float: left;
+    margin: 10px;
+}
+
+.skill_card {
+    width: 180px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-family: "McLaren", sans-serif;
+    box-shadow: 0 0 5px #32FAB9;
+    border-radius: 15px;
+}
+
+.skill_card:hover {
+    box-shadow: 0 0 20px #32FAB9;
+}
+
+.skill_card h1 {
+    font-size: 20px;
+}
+
+.skill_img {
+    height: 38px;
+    width: 38px;
+    margin-right: 5px;
+}
+
+.Experience {
+    margin-top: 80px;
+    text-align: center;
+}
+.ex_img {
+    height: 250px;
+    width: 100%;
+    /*margin: 50px;*/
+}
+
+.ex_left {
+    text-align: left;
+}
+
+.ex {
+    box-shadow: 0 0 10px #fc6b04;
+}
+
+.ex:hover {
+    box-shadow: 0 0 25px #fc6b04;
+}
+
+.ex_text {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.ex_hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ex_icon {
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 30px;
+    color: #32FAB9;
+}
+
+.Projects {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Projects p {
+    font-size: 15px;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+.pro {
+    margin-top: 15px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: end;
+    box-shadow: 0 0 5px #fc6b04;
+}
+
+.pro:hover {
+    box-shadow: 0 0 10px #32FAB9;
+}
+
+.pro_img {
+    margin-top: 10px;
+}
+
+footer {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Projects p {
+    text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .Card {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .Lower_body {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .lg-m h2 {
+        flex-direction: column;
+    }
+
+    .lg-m {
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width: 1380px) {
+    .Card {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .skills {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+
+    .Lower_body {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .Experience {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .lg-m h2 {
+        flex-direction: column;
+    }
+
+    .lg-m {
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        display: flex;
+    }
+
+    .ex_img {
+        height: 350px;
+        width: 450px;
+    }
+
+}
+
+.centered {
+    color: rebeccapurple;
+    font-size: large;
+    font-weight: bold;
+    font-family: "McLaren", sans-serif;
+    margin-top: 50px;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.non {
+    height: 100px;
+    width: 100px;
+}
