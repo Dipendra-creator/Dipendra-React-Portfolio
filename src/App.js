@@ -62,7 +62,7 @@ function App() {
                     </div>
                 </div>
 
-                <div className="Experience Projects">
+                <div className="Projects">
                     <h2>Projects</h2>
                     <p>Note: These projects were for learning only and I did not continue development</p>
                     <a href="https://github.com/Dipendra-creator/tic_tac_toe"><ProjectsCard name="Tic Tac Toe" info="A Flutter Game with nice UI"/></a>

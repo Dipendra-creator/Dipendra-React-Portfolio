@@ -256,83 +256,33 @@ footer {
 @media only screen and (min-width: 1080px) {
 
     .Card {
-        margin-left: 4rem;
-        margin-right: 4rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
     }
 
     .Lower_body {
-        margin-left: 5rem;
         margin-right: 5rem;
-    }
-
-    .lg-m h2 {
-        flex-direction: column;
+        margin-left: 5rem;
     }
 
     .lg-m {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         align-content: center;
         align-self: center;
-        justify-content: center;
-        text-align: center;
-        display: flex;
     }
 
+    .ex {
+        width: 500px;
+    }
 }
 
-@media only screen and (min-width: 1380px) {
-    .Card {
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-
-    .skills {
-        margin-left: 12rem;
-        margin-right: 12rem;
-    }
+@media only screen and (min-width: 1480px) {
 
     .Lower_body {
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-right: 8rem;
+        margin-left: 8rem;
     }
 
-    .Experience {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-    .lg-m h2 {
-        flex-direction: column;
-    }
-
-    .lg-m {
-        align-content: center;
-        align-self: center;
-        justify-content: center;
-        text-align: center;
-        margin-left: 7rem;
-        margin-right: 7rem;
-        display: flex;
-    }
-
-    .ex_img {
-        height: 350px;
-        width: 450px;
-    }
-
-}
-
-.centered {
-    color: rebeccapurple;
-    font-size: large;
-    font-weight: bold;
-    font-family: "McLaren", sans-serif;
-    margin-top: 50px;
-    /*display: flex;*/
-    justify-content: center;
-    align-items: center;
-}
-
-.non {
-    height: 100px;
-    width: 100px;
 }
