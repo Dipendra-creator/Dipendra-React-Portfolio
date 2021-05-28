@@ -265,6 +265,10 @@ footer {
         margin-left: 5rem;
     }
 
+    .ex {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
     .lg-m {
         display: flex;
         justify-content: center;
