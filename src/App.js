@@ -49,10 +49,8 @@ function App() {
                     <div className="container">
                         <SkillCard name="Express" href="./assets/JavaScript.png"/>
                         <SkillCard name="Go Lang" href="https://blog.golang.org/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png"/>
-                        <SkillCard name="Docker"
-                                   href="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png"/>
-                        <SkillCard name="Kubernetes"
-                                   href="https://provato-cdn.azureedge.net/www-provato/2020/11/kubernetes.png"/>
+                        <SkillCard name="Docker" href="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png"/>
+                        <SkillCard name="Kubernetes" href="https://provato-cdn.azureedge.net/www-provato/2020/11/kubernetes.png"/>
                     </div>
                 </div>
 
@@ -67,14 +65,10 @@ function App() {
                 <div className="Experience Projects">
                     <h2>Projects</h2>
                     <p>Note: These projects were for learning only and I did not continue development</p>
-                    <a href="https://github.com/Dipendra-creator/tic_tac_toe"><ProjectsCard name="Tic Tac Toe"
-                                                                                            info="A Flutter Game with nice UI"/></a>
-                    <a href="https://github.com/Dipendra-creator"><ProjectsCard name="Real Time Object Detection"
-                                                                                info="A Mask Detection with Tensorflow"/></a>
-                    <a href="https://github.com/Dipendra-creator"><ProjectsCard name="Virtual Mouse OpenCV"
-                                                                                info="AI Virtual Mouse using OpenCV"/></a>
-                    <a href="https://github.com/Dipendra-creator/Hunted_House"><ProjectsCard name="Hunted House"
-                                                                                             info="Three.js Model of House with some effects"/></a>
+                    <a href="https://github.com/Dipendra-creator/tic_tac_toe"><ProjectsCard name="Tic Tac Toe" info="A Flutter Game with nice UI"/></a>
+                    <a href="https://github.com/Dipendra-creator"><ProjectsCard name="Real Time Object Detection" info="A Mask Detection with Tensorflow"/></a>
+                    <a href="https://github.com/Dipendra-creator"><ProjectsCard name="Virtual Mouse OpenCV" info="AI Virtual Mouse using OpenCV"/></a>
+                    <a href="https://github.com/Dipendra-creator/Hunted_House"><ProjectsCard name="Hunted House" info="Three.js Model of House with some effects"/></a>
                 </div>
             </div>
             <footer>
